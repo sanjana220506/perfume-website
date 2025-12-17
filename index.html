@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zyra Perfumes</title>
+    <link rel="icon" href="icon2.png">
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+        }
+
+        nav{
+            background-color: beige;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: brown;
+        }
+
+        
+        section{
+            padding: 35px 20px;
+        }
+
+        p, h4{
+            max-width: 900px;
+            margin: 15px auto;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        
+        .hero-img{
+            width: 800px;
+            max-width: 100%;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+
+    
+        .btn{
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            
+        }
+
+        .btn:hover{
+            background-color: brown;
+        }
+
+        
+        .image-group{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .image-group img{
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.3s;
+        }
+
+        .image-group img:hover{
+            transform: scale(1.05);
+        }
+
+        
+        .features{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .feature-box{
+            background-color: #f6efe9;
+            padding: 20px;
+            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        
+        .testimonial{
+            font-style: italic;
+            background-color: #faf7f3;
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        
+        .newsletter input{
+            padding: 10px;
+            width: 250px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+    
+        .contact{
+            background-color: black;
+            color: white;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        .contact h2{
+            margin-bottom: 8px;
+        }
+
+        .contact h3{
+            margin: 4px 0;
+            font-weight: normal;
+        }
+
+        .contact a{
+            color: white;
+            text-decoration: none;
+        }
+
+    
+        .fade{
+            opacity: 0;
+            transform: translateY(30px);
+            transition: 1s;
+        }
+
+        .fade.show{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index1.html">Perfumes</a></li>
+        <li><a href="index2.html">Perfume Sets</a></li>
+        <li><a href="index3.html">About Us</a></li>
+        <li><a href="index4.html">Place Order</a></li>
+    </ul>
+</nav>
+
+
+<section class="fade">
+    <h1>Zyra</h1>
+    <h2>The Best Perfumes</h2>
+    <img src="per5.webp" class="hero-img">
+    <br>
+   <a href="./index4.html"><button class="btn" onclick="orderNow()">Order Now</button></a>
+</section>
+
+<section class="fade">
+    <p>
+        Perfume is more than a fragrance — it is confidence, personality,
+        and emotion captured in a bottle. Zyra perfumes are crafted to
+        become your signature scent.
+    </p>
+</section>
+
+
+<section class="fade">
+    <h2>Why Choose Zyra?</h2>
+    <div class="features">
+        <div class="feature-box">🌸 Premium Ingredients</div>
+        <div class="feature-box">⏳ Long Lasting</div>
+        <div class="feature-box">🚚 Fast Delivery</div>
+    </div>
+</section>
+
+
+<section class="fade">
+    <h1>Perfume World</h1>
+    <h2>Products | Perfume Sets | Place Order</h2>
+    <p>
+        From fresh daily wear to bold night fragrances,
+        Zyra offers scents for every mood and moment.
+    </p>
+    <img src="w2.webp" class="hero-img">
+</section>
+
+
+<section class="fade">
+    <h1>Zyra Perfumes</h1>
+    <h2>Quality | Price | Offers</h2>
+
+    <div class="image-group">
+        <img src="per8.webp">
+        <img src="per2.avif">
+        <img src="per1.webp">
+    </div>
+
+    <h4>
+        Each Zyra fragrance is inspired by luxury,
+        crafted with care, and designed to empower confidence.
+    </h4>
+</section>
+
+
+<section class="fade">
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐ <br>
+        “Zyra perfumes last all day and smell absolutely luxurious.
+        I get compliments everywhere I go.”
+    </div>
+</section>
+
+
+<section class="fade newsletter">
+    <h2>Stay Connected</h2>
+    <input type="email" placeholder="Enter your email">
+    <button class="btn">Subscribe</button>
+</section>
+
+
+<section class="fade">
+    <h2>Evocative Arabian Nights Inspiration</h2>
+    <h4>
+        Inspired by Arabian nights, Zyra perfumes blend incense,
+        spices, florals, and sweet notes into unforgettable luxury scents.
+    </h4>
+    <img src="per6.webp" class="hero-img">
+</section>
+<div class="contact">
+    <h2>Contact</h2>
+    <h3>+91 80133 68267</h3>
+    <h3>zyraperfumes@gmail.com</h3>
+</div>
+
+<script>
+    // Order button alert
+    function orderNow(){
+        alert("Redirecting to Order Page!");
+        window.location.href = "index5.html";
+    }
+
+    // Scroll fade animation
+    const fades = document.querySelectorAll(".fade");
+
+    window.addEventListener("scroll", () => {
+        fades.forEach(fade => {
+            const position = fade.getBoundingClientRect().top;
+            if(position < window.innerHeight - 100){
+                fade.classList.add("show");
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

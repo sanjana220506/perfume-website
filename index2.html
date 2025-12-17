@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfume Sets</title>
+    <link rel="icon" href="./icon2.png">
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+        }
+
+    
+        nav{
+            background-color: beige;
+            padding: 15px;
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: brown;
+        }
+
+        
+        h1, h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        
+        .perfume-set-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 40px;
+        }
+
+        
+        .perfume-set-card{
+            background-color: #f6efe9;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease;
+        }
+
+        .perfume-set-card:hover{
+            transform: translateY(-6px);
+        }
+
+        .perfume-set-card img{
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+
+        .perfume-set-content{
+            padding: 15px;
+            text-align: center;
+        }
+
+        .perfume-set-content h3{
+            margin: 8px 0 4px;
+            font-size: 18px;
+        }
+
+        .perfume-set-content p{
+            font-size: 14px;
+            color: #555;
+        }
+
+        .perfume-set-content span{
+            display: block;
+            margin-top: 6px;
+            font-weight: bold;
+        }
+
+        
+        .contact{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+       .contact h3{
+            font-weight: normal;
+            margin: 5px 0;
+        }
+
+        .social a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .social a:hover{
+            color: #f6c177;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index1.html">Perfumes</a></li>
+        <li><a href="./index2.html">Perfume Sets</a></li>
+        <li><a href="./index3.html">About Us</a></li>
+        <li><a href="./index4.html">Place Order</a></li>
+    </ul>
+</nav>
+
+<h1>Perfume Sets</h1>
+<h2><i>Perfect blends crafted for every mood</i></h2>
+
+
+<div class="perfume-set-container">
+
+    <div class="perfume-set-card">
+        <img src="set5.avif">
+        <div class="perfume-set-content">
+            <h3>Vanilla Collection Set</h3>
+            <p>Warm & Sweet Trio</p>
+            <span>₹9,999</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="set3.jpeg">
+        <div class="perfume-set-content">
+            <h3>Floral Elegance Set</h3>
+            <p>Soft Feminine Notes</p>
+            <span>₹8,499</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="set6.webp">
+        <div class="perfume-set-content">
+            <h3>Oud Luxury Set</h3>
+            <p>Bold Arabian Scents</p>
+            <span>₹11,999</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="set7.avif">
+        <div class="perfume-set-content">
+            <h3>Romantic Nights Set</h3>
+            <p>Deep & Sensual</p>
+            <span>₹10,499</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="perset1.webp">
+        <div class="perfume-set-content">
+            <h3>Fresh Everyday Set</h3>
+            <p>Clean Daily Wear</p>
+            <span>₹7,999</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="perset2.webp">
+        <div class="perfume-set-content">
+            <h3>Unisex Signature Set</h3>
+            <p>For Everyone</p>
+            <span>₹8,999</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="perset3.webp">
+        <div class="perfume-set-content">
+            <h3>Fruity Love Set</h3>
+            <p>Playful & Sweet</p>
+            <span>₹8,299</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="per3.jpg">
+        <div class="perfume-set-content">
+            <h3>Amber Spice Set</h3>
+            <p>Warm Oriental Blend</p>
+            <span>₹10,799</span>
+        </div>
+    </div>
+
+    <div class="perfume-set-card">
+        <img src="perset4.jpg">
+        <div class="perfume-set-content">
+            <h3>Luxury Mini Set</h3>
+            <p>Travel Friendly</p>
+            <span>₹6,999</span>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="contact">
+    <h2>Contact</h2>
+    <h3>+91 80133 68267</h3>
+    <h3>zyraperfumes@gmail.com</h3>
+
+    <div class="social">
+        <a href="#">Instagram</a> |
+        <a href="#">YouTube</a> |
+        <a href="#">Google</a> |
+        <a href="#">Facebook</a>
+    </div>
+</div>
+
+</body>
+</html>

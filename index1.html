@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfumes</title>
+    <link rel="icon" href="./icon.1.png">
+
+    <style>
+    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+        }
+
+        
+        nav{
+            background-color: beige;
+            padding: 15px;
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: brown;
+        }
+
+        
+        h1, h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        
+        .products{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 30px;
+        }
+
+        
+        .card{
+            background-color: #f6efe9;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover{
+            transform: translateY(-5px);
+        }
+
+        .card img{
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card h3{
+            margin: 10px 0 5px;
+        }
+
+        .card p{
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card span{
+            display: block;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        
+        .contact{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        .contact h2{
+            margin-bottom: 10px;
+        }
+
+        .contact h3{
+            font-weight: normal;
+            margin: 5px 0;
+        }
+
+        .social a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .social a:hover{
+            color: #f6c177;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index1.html">Perfumes</a></li>
+        <li><a href="./index2.html">Perfume Sets</a></li>
+        <li><a href="./index3.html">About Us</a></li>
+        <li><a href="./index4.html">Place Order</a></li>
+    </ul>
+</nav>
+
+<h1>Perfumes</h1>
+<h2><i>Fragrances fill the senses with the mysterious</i></h2>
+
+
+<div class="products">
+
+    <div class="card">
+        <img src="per20.avif">
+        <h3>Vanilla Royale</h3>
+        <p>Warm & Sweet</p>
+        <span>₹4,500</span>
+    </div>
+
+    <div class="card">
+        <img src="per19.avif">
+        <h3>Elixir 11</h3>
+        <p>Floral Musk</p>
+        <span>₹4,200</span>
+    </div>
+
+    <div class="card">
+        <img src="per18.jpg">
+        <h3>Lovefest Burning Cherry</h3>
+        <p>Fruity & Bold</p>
+        <span>₹5,000</span>
+    </div>
+
+    <div class="card">
+        <img src="per17.jpg">
+        <h3>Utopia Vanilla Coco</h3>
+        <p>Creamy Coconut</p>
+        <span>₹4,800</span>
+    </div>
+
+    <div class="card">
+        <img src="per6.webp">
+        <h3>Musk 12</h3>
+        <p>Soft & Sensual</p>
+        <span>₹3,900</span>
+    </div>
+
+    <div class="card">
+        <img src="per11.jpg">
+        <h3>Deja Vu White Flower</h3>
+        <p>Elegant Floral</p>
+        <span>₹4,600</span>
+    </div>
+
+    <div class="card">
+        <img src="per16.webp">
+        <h3>Eden Juicy Apple</h3>
+        <p>Fresh & Fruity</p>
+        <span>₹4,300</span>
+    </div>
+
+    <div class="card">
+        <img src="per13.jpg">
+        <h3>Invite Only Amber</h3>
+        <p>Rich & Spicy</p>
+        <span>₹5,200</span>
+    </div>
+
+    <div class="card">
+        <img src="per3.jpg">
+        <h3>Citrus 08</h3>
+        <p>Clean & Fresh</p>
+        <span>₹3,700</span>
+    </div>
+
+    <div class="card">
+        <img src="per4.webp">
+        <h3>Rose Oud</h3>
+        <p>Luxury Floral</p>
+        <span>₹5,500</span>
+    </div>
+
+    <div class="card">
+        <img src="per2.avif">
+        <h3>Sweet Diamond Pink Pepper</h3>
+        <p>Bold & Feminine</p>
+        <span>₹4,900</span>
+    </div>
+
+    <div class="card">
+        <img src="per1.webp">
+        <h3>Amber Invite Only</h3>
+        <p>Warm Oriental</p>
+        <span>₹5,100</span>
+    </div>
+
+</div>
+
+<div class="contact">
+    <h2>Contact</h2>
+    <h3>+91 80133 68267</h3>
+    <h3>zyraperfumes@gmail.com</h3>
+
+    <div class="social">
+        <a href="#">Instagram</a> |
+        <a href="#">YouTube</a> |
+        <a href="#">Google</a> |
+        <a href="#">Facebook</a>
+    </div>
+</div>
+
+</body>
+</html>
